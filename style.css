@@ -1,0 +1,86 @@
+
+
+
+body{
+
+
+    text-align: center;
+    background-image: url(./tab1.png);
+    color: rgb(162, 255, 70);
+    font-size: 28px;
+    padding-top: 10px;
+    inset-inline: 12px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}  
+#button{
+text-align: center;
+padding-top: 10px;
+border-radius: 5px;
+color: chocolate;
+
+}
+
+
+#butt :hover{
+
+
+    color: yellow;
+    background-color: black;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#Generate{
+    background-color: rgb(101, 232, 255);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+h1{
+color: rgb(162, 255, 250);
+font-size: 30px;
+margin-top: 1px;
+
+
+}
+#tab2{
+    border: 1px solid rgb(5, 5, 5);
+    border-style: double solid black;
+    display: inline-block;
+    padding: 5px;
+}
+input{
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+margin-top: 2px;
+text-align: center;
+ width: 250px;
+
+}
+h2{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+h4{
+    font-size: 18px;
+    color: blanchedalmond;
+   }
+
+   h3 {
+
+    color: rgb(247, 250, 246);
+    font-size: 16px;
+   }
+
+   h5{
+
+    font-size: 20px;
+    animation:  2ms linear infinite;
+   }

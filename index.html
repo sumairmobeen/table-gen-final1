@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APP TABLE GENERTAOR</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div id="main">
+  <form onsubmit="return table()">
+    <h1> TABLE GENERTAOR</h1>
+    <br>
+    <br>
+    <input type="number" id="table1" placeholder="Enter The Table Number">
+    <div id="butt">
+    <button id="Generate"><b>Generate</b></button>
+    </div>
+
+  </form>
+  
+  <br>
+</div>
+
+<div id="tab2">
+</div>
+<h2>Under-Supervision By:</h2> <h5>Sir INZAMAM MALIK</h5>
+  <h3>Coding By : </h3>
+  <h4>MOHAMMAD MOBEEN</h4>
+
+  <script>
+    function table() {
+       document.getElementById("tab2").innerHTML= "";
+      var tab = document.getElementById("table1").value;
+
+
+      
+      for (var i = 1; i <= 10; i++) {
+
+       
+        document.getElementById("tab2").innerHTML+=(tab + " X " + i + " =" + (tab * i) + " <br />");
+        document.getElementById("table1").value = ""
+        console.log(tab + " X " + i + " = " + (tab * i));
+
+      }
+     
+      return false;
+    };
+
+
+  </script>
+
+
+
+</body>
+
+</html>
